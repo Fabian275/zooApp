@@ -1,7 +1,7 @@
 import elefant from "./../resources/elefant.webp";
 import lama from "./../resources/lama.jpg";
 import fledermaus from "./../resources/fledermaus.webp";
-import Calender from "./Calender";
+import ZooCalender from "./ZooCalender";
 
 function EventsToday() {
   return (
@@ -37,7 +37,7 @@ function EventsToday() {
           ></img>
         </div>
       </div>
-      <Calender />
+      <ZooCalender />
     </div>
   );
 }

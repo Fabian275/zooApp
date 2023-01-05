@@ -123,3 +123,15 @@ hr {
 .SozialMediaIcons {
   width: 40px;
 }
+
+#month {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonMonths {
+  margin: 10px;
+  width: 50px;
+  height: 40px;
+  border-radius: 15px;
+}

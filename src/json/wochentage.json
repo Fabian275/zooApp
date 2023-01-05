@@ -1,22 +1,514 @@
 {
-  "data": {
-    "2023": {
-      "Januar": {
-        "w1": ["", "", "", "", "", "", 1],
-        "w2": [2, 3, 4, 5, 6, 7, 8],
-        "w3": [9, 10, 11, 12, 13, 14, 15],
-        "w4": [16, 17, 18, 19, 20, 21, 22],
-        "w5": [23, 24, 25, 26, 27, 28, 29],
-        "w6": [30, 31, "", "", "", "", ""]
-      },
-      "Februar": {
-        "w1": [30, 31, 1, 2, 3, 4, 5],
-        "w2": [6, 7, 8, 9, 10, 11, 12],
-        "w3": [13, 14, 15, 16, 17, 18, 19],
-        "w4": [20, 21, 22, 23, 24, 25, 26],
-        "w5": [27, 28, 1, 2, 3, 4, 5]
-      }
+  "Januar": {
+    "Woche 1": {
+      "Montag": 2,
+      "Dienstag": 3,
+      "Mittwoch": 4,
+      "Donnerstag": 5,
+      "Freitag": 6,
+      "Samstag": 7,
+      "Sonntag": 8
     },
-    "2024": {}
+    "Woche 2": {
+      "Montag": 9,
+      "Dienstag": 10,
+      "Mittwoch": 11,
+      "Donnerstag": 12,
+      "Freitag": 13,
+      "Samstag": 14,
+      "Sonntag": 15
+    },
+    "Woche 3": {
+      "Montag": 16,
+      "Dienstag": 17,
+      "Mittwoch": 18,
+      "Donnerstag": 19,
+      "Freitag": 20,
+      "Samstag": 21,
+      "Sonntag": 22
+    },
+    "Woche 4": {
+      "Montag": 23,
+      "Dienstag": 24,
+      "Mittwoch": 25,
+      "Donnerstag": 26,
+      "Freitag": 27,
+      "Samstag": 28,
+      "Sonntag": 29
+    },
+    "Woche 5": {
+      "Montag": 30,
+      "Dienstag": 31
+    }
+  },
+  "Februar": {
+    "Woche 1": {
+      "Mittwoch": 1,
+      "Donnerstag": 2,
+      "Freitag": 3,
+      "Samstag": 4,
+      "Sonntag": 5
+    },
+    "Woche 2": {
+      "Montag": 6,
+      "Dienstag": 7,
+      "Mittwoch": 8,
+      "Donnerstag": 9,
+      "Freitag": 10,
+      "Samstag": 11,
+      "Sonntag": 12
+    },
+    "Woche 3": {
+      "Montag": 13,
+      "Dienstag": 14,
+      "Mittwoch": 15,
+      "Donnerstag": 16,
+      "Freitag": 17,
+      "Samstag": 18,
+      "Sonntag": 19
+    },
+    "Woche 4": {
+      "Montag": 20,
+      "Dienstag": 21,
+      "Mittwoch": 22,
+      "Donnerstag": 23,
+      "Freitag": 24,
+      "Samstag": 25,
+      "Sonntag": 26
+    },
+    "Woche 5": {
+      "Montag": 27,
+      "Dienstag": 28
+    }
+  },
+  "März": {
+    "Woche 1": {
+      "Mittwoch": 1,
+      "Donnerstag": 2,
+      "Freitag": 3,
+      "Samstag": 4,
+      "Sonntag": 5
+    },
+    "Woche 2": {
+      "Montag": 6,
+      "Dienstag": 7,
+      "Mittwoch": 8,
+      "Donnerstag": 9,
+      "Freitag": 10,
+      "Samstag": 11,
+      "Sonntag": 12
+    },
+    "Woche 3": {
+      "Montag": 13,
+      "Dienstag": 14,
+      "Mittwoch": 15,
+      "Donnerstag": 16,
+      "Freitag": 17,
+      "Samstag": 18,
+      "Sonntag": 19
+    },
+    "Woche 4": {
+      "Montag": 20,
+      "Dienstag": 21,
+      "Mittwoch": 22,
+      "Donnerstag": 23,
+      "Freitag": 24,
+      "Samstag": 25,
+      "Sonntag": 26
+    },
+    "Woche 5": {
+      "Montag": 27,
+      "Dienstag": 28,
+      "Mittwoch": 29,
+      "Donnerstag": 30,
+      "Freitag": 31
+    }
+  },
+  "April": {
+    "Woche 1": {
+      "Samstag": 1,
+      "Sonntag": 2
+    },
+    "Woche 2": {
+      "Montag": 3,
+      "Dienstag": 4,
+      "Mittwoch": 5,
+      "Donnerstag": 6,
+      "Freitag": 7,
+      "Samstag": 8,
+      "Sonntag": 9
+    },
+    "Woche 3": {
+      "Montag": 10,
+      "Dienstag": 11,
+      "Mittwoch": 12,
+      "Donnerstag": 13,
+      "Freitag": 14,
+      "Samstag": 15,
+      "Sonntag": 16
+    },
+    "Woche 4": {
+      "Montag": 17,
+      "Dienstag": 18,
+      "Mittwoch": 19,
+      "Donnerstag": 20,
+      "Freitag": 21,
+      "Samstag": 22,
+      "Sonntag": 23
+    },
+    "Woche 5": {
+      "Montag": 24,
+      "Dienstag": 25,
+      "Mittwoch": 26,
+      "Donnerstag": 27,
+      "Freitag": 28,
+      "Samstag": 29,
+      "Sonntag": 30
+    }
+  },
+  "Mai": {
+    "Woche 1": {
+      "Montag": 1,
+      "Dienstag": 2,
+      "Mittwoch": 3,
+      "Donnerstag": 4,
+      "Freitag": 5,
+      "Samstag": 6,
+      "Sonntag": 7
+    },
+    "Woche 2": {
+      "Montag": 8,
+      "Dienstag": 9,
+      "Mittwoch": 10,
+      "Donnerstag": 11,
+      "Freitag": 12,
+      "Samstag": 13,
+      "Sonntag": 14
+    },
+    "Woche 3": {
+      "Montag": 15,
+      "Dienstag": 16,
+      "Mittwoch": 17,
+      "Donnerstag": 18,
+      "Freitag": 19,
+      "Samstag": 20,
+      "Sonntag": 21
+    },
+    "Woche 4": {
+      "Montag": 22,
+      "Dienstag": 23,
+      "Mittwoch": 24,
+      "Donnerstag": 25,
+      "Freitag": 26,
+      "Samstag": 27,
+      "Sonntag": 28
+    },
+    "Woche 5": {
+      "Montag": 29,
+      "Dienstag": 30,
+      "Mittwoch": 31
+    }
+  },
+  "Juni": {
+    "Woche 1": {
+      "Donnerstag": 1,
+      "Freitag": 2,
+      "Samstag": 3,
+      "Sonntag": 4
+    },
+    "Woche 2": {
+      "Montag": 5,
+      "Dienstag": 6,
+      "Mittwoch": 7,
+      "Donnerstag": 8,
+      "Freitag": 9,
+      "Samstag": 10,
+      "Sonntag": 11
+    },
+    "Woche 3": {
+      "Montag": 12,
+      "Dienstag": 13,
+      "Mittwoch": 14,
+      "Donnerstag": 15,
+      "Freitag": 16,
+      "Samstag": 17,
+      "Sonntag": 18
+    },
+    "Woche 4": {
+      "Montag": 19,
+      "Dienstag": 20,
+      "Mittwoch": 21,
+      "Donnerstag": 22,
+      "Freitag": 23,
+      "Samstag": 24,
+      "Sonntag": 25
+    },
+    "Woche 5": {
+      "Montag": 26,
+      "Dienstag": 27,
+      "Mittwoch": 28,
+      "Donnerstag": 29,
+      "Freitag": 30
+    }
+  },
+  "Juli": {
+    "Woche 1": {
+      "Samstag": 1,
+      "Sonntag": 2
+    },
+    "Woche 2": {
+      "Montag": 3,
+      "Dienstag": 4,
+      "Mittwoch": 5,
+      "Donnerstag": 6,
+      "Freitag": 7,
+      "Samstag": 8,
+      "Sonntag": 9
+    },
+    "Woche 3": {
+      "Montag": 10,
+      "Dienstag": 11,
+      "Mittwoch": 12,
+      "Donnerstag": 13,
+      "Freitag": 14,
+      "Samstag": 15,
+      "Sonntag": 16
+    },
+    "Woche 4": {
+      "Montag": 17,
+      "Dienstag": 18,
+      "Mittwoch": 19,
+      "Donnerstag": 20,
+      "Freitag": 21,
+      "Samstag": 22,
+      "Sonntag": 23
+    },
+    "Woche 5": {
+      "Montag": 24,
+      "Dienstag": 25,
+      "Mittwoch": 26,
+      "Donnerstag": 27,
+      "Freitag": 28,
+      "Samstag": 29,
+      "Sonntag": 30
+    },
+    "Woche 6": {
+      "Montag": 31
+    }
+  },
+  "August": {
+    "Woche 1": {
+      "Dienstag": 1,
+      "Mittwoch": 2,
+      "Donnerstag": 3,
+      "Freitag": 4,
+      "Samstag": 5,
+      "Sonntag": 6
+    },
+    "Woche 2": {
+      "Montag": 7,
+      "Dienstag": 8,
+      "Mittwoch": 9,
+      "Donnerstag": 10,
+      "Freitag": 11,
+      "Samstag": 12,
+      "Sonntag": 13
+    },
+    "Woche 3": {
+      "Montag": 14,
+      "Dienstag": 15,
+      "Mittwoch": 16,
+      "Donnerstag": 17,
+      "Freitag": 18,
+      "Samstag": 19,
+      "Sonntag": 20
+    },
+    "Woche 4": {
+      "Montag": 21,
+      "Dienstag": 22,
+      "Mittwoch": 23,
+      "Donnerstag": 24,
+      "Freitag": 25,
+      "Samstag": 26,
+      "Sonntag": 27
+    },
+    "Woche 5": {
+      "Montag": 28,
+      "Dienstag": 29,
+      "Mittwoch": 30,
+      "Donnerstag": 31
+    }
+  },
+  "September": {
+    "Woche 1": {
+      "Freitag": 1,
+      "Samstag": 2,
+      "Sonntag": 3
+    },
+    "Woche 2": {
+      "Montag": 4,
+      "Dienstag": 5,
+      "Mittwoch": 6,
+      "Donnerstag": 7,
+      "Freitag": 8,
+      "Samstag": 9,
+      "Sonntag": 10
+    },
+    "Woche 3": {
+      "Montag": 11,
+      "Dienstag": 12,
+      "Mittwoch": 13,
+      "Donnerstag": 14,
+      "Freitag": 15,
+      "Samstag": 16,
+      "Sonntag": 17
+    },
+    "Woche 4": {
+      "Montag": 18,
+      "Dienstag": 19,
+      "Mittwoch": 20,
+      "Donnerstag": 21,
+      "Freitag": 22,
+      "Samstag": 23,
+      "Sonntag": 24
+    },
+    "Woche 5": {
+      "Montag": 25,
+      "Dienstag": 26,
+      "Mittwoch": 27,
+      "Donnerstag": 28,
+      "Freitag": 29,
+      "Samstag": 30
+    }
+  },
+  "Oktober": {
+    "Woche 1": {
+      "Sonntag": 1
+    },
+    "Woche 2": {
+      "Montag": 2,
+      "Dienstag": 3,
+      "Mittwoch": 4,
+      "Donnerstag": 5,
+      "Freitag": 6,
+      "Samstag": 7,
+      "Sonntag": 8
+    },
+    "Woche 3": {
+      "Montag": 9,
+      "Dienstag": 10,
+      "Mittwoch": 11,
+      "Donnerstag": 12,
+      "Freitag": 13,
+      "Samstag": 14,
+      "Sonntag": 15
+    },
+    "Woche 4": {
+      "Montag": 16,
+      "Dienstag": 17,
+      "Mittwoch": 18,
+      "Donnerstag": 19,
+      "Freitag": 20,
+      "Samstag": 21,
+      "Sonntag": 22
+    },
+    "Woche 5": {
+      "Montag": 23,
+      "Dienstag": 24,
+      "Mittwoch": 25,
+      "Donnerstag": 26,
+      "Freitag": 27,
+      "Samstag": 28,
+      "Sonntag": 29
+    },
+    "Woche 6": {
+      "Montag": 30,
+      "Dienstag": 31
+    }
+  },
+  "November": {
+    "Woche 1": {
+      "Mittwoch": 1,
+      "Donnerstag": 2,
+      "Freitag": 3,
+      "Samstag": 4,
+      "Sonntag": 5
+    },
+    "Woche 2": {
+      "Montag": 6,
+      "Dienstag": 7,
+      "Mittwoch": 8,
+      "Donnerstag": 9,
+      "Freitag": 10,
+      "Samstag": 11,
+      "Sonntag": 12
+    },
+    "Woche 3": {
+      "Montag": 13,
+      "Dienstag": 14,
+      "Mittwoch": 15,
+      "Donnerstag": 16,
+      "Freitag": 17,
+      "Samstag": 18,
+      "Sonntag": 19
+    },
+    "Woche 4": {
+      "Montag": 20,
+      "Dienstag": 21,
+      "Mittwoch": 22,
+      "Donnerstag": 23,
+      "Freitag": 24,
+      "Samstag": 25,
+      "Sonntag": 26
+    },
+    "Woche 5": {
+      "Montag": 27,
+      "Dienstag": 28,
+      "Mittwoch": 29,
+      "Donnerstag": 30
+    }
+  },
+  "Dezember": {
+    "Woche 1": {
+      "Freitag": 1,
+      "Samstag": 2,
+      "Sonntag": 3
+    },
+    "Woche 2": {
+      "Montag": 4,
+      "Dienstag": 5,
+      "Mittwoch": 6,
+      "Donnerstag": 7,
+      "Freitag": 8,
+      "Samstag": 9,
+      "Sonntag": 10
+    },
+    "Woche 3": {
+      "Montag": 11,
+      "Dienstag": 12,
+      "Mittwoch": 13,
+      "Donnerstag": 14,
+      "Freitag": 15,
+      "Samstag": 16,
+      "Sonntag": 17
+    },
+    "Woche 4": {
+      "Montag": 18,
+      "Dienstag": 19,
+      "Mittwoch": 20,
+      "Donnerstag": 21,
+      "Freitag": 22,
+      "Samstag": 23,
+      "Sonntag": 24
+    },
+    "Woche 5": {
+      "Montag": 25,
+      "Dienstag": 26,
+      "Mittwoch": 27,
+      "Donnerstag": 28,
+      "Freitag": 29,
+      "Samstag": 30,
+      "Sonntag": 31
+    }
   }
 }
